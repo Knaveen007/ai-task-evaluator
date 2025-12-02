@@ -17,7 +17,7 @@ TaskEval AI is a full-stack Next.js application that leverages Artificial Intell
 -   **Language**: TypeScript
 -   **Styling**: Tailwind CSS, Shadcn UI
 -   **Database & Auth**: [Supabase](https://supabase.com/)
--   **AI Integration**: OpenAI / Ollama
+-   **AI Integration**: Ollama
 -   **Payments**: Stripe
 -   **Deployment**: Vercel
 
@@ -61,7 +61,6 @@ TaskEval AI is a full-stack Next.js application that leverages Artificial Intell
     NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
     NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
     STRIPE_SECRET_KEY=your_stripe_secret_key
-    OPENAI_API_KEY=your_openai_api_key
     ```
 
 4.  **Run the development server:**
@@ -72,6 +71,3 @@ TaskEval AI is a full-stack Next.js application that leverages Artificial Intell
 5.  **Open your browser:**
     Navigate to [http://localhost:3000](http://localhost:3000) to see the application in action.
 
-## 📝 License
-
-This project is licensed under the MIT License.
